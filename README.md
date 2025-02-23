@@ -1,13 +1,17 @@
 # 🔥 Vite - React - Node.js - Express - MySQL
 
+> Cette première étape consiste à structurer le projet avec une partie **client** (React) et une partie **serveur** (Express). Les dépendances sont installées, le serveur est configuré, et la connexion entre les deux est établie avec **CORS**.
+
+### 🛠️ Détails des dossiers
+- **client/** : Le dossier contenant la partie **client** générée par Vite. **React**
+- **server/** : Le dossier contenant la partie **serveur**. Il contient le fichier **server.js** qui gérera l'API. **Express**
 
 ```bash
 Project/
-├── client/   # Généré avec Vite
-└── server/   # À créer manuellement
-    └── server.js
+├── 📁 client/ # Généré avec Vite
+└── 📁 server/ # À créer manuellement
+    └── 📄 server.js
 ```
-
 
 ## 📂 Création du Client
 
@@ -88,6 +92,8 @@ app.listen(3000, () => console.log('✅ Server started: http://localhost:3000'))
 ## ⌨️ Configuration de Cors
 
 > **Étape 7** : Configurer CORS pour restreindre l’accès à l’API uniquement à `localhost:5173` ( Server Vite par defaut ), dans le fichier `server/server.js`.
+
+> CORS permet aux applications Web clientes chargées dans un domaine particulier d'interagir avec les ressources d'un autre domaine. Cela est utile, car les applications complexes font souvent référence à des API et à des ressources tierces dans leur code côté client.
 
 ```js
 import cors from "cors"
