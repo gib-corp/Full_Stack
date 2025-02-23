@@ -13,6 +13,8 @@ Project/
     └── 📄 server.js
 ```
 
+---
+
 ## 📂 Création du Client
 
 > **Étape 1** : Générer un projet frontend avec Vite dans un dossier `client/`.
@@ -21,6 +23,7 @@ Project/
 npm create vite@latest client
 ```
 
+---
 
 ## 📂 Création du Server
 
@@ -30,6 +33,7 @@ npm create vite@latest client
 npm init -y
 ```
 
+---
 
 ## 📄 Création de `server.js`
 
@@ -40,6 +44,7 @@ npm init -y
     └── server.js
 ```
 
+---
 
 ## ⌨️ Installation des Dépendances
 
@@ -57,6 +62,7 @@ npm i cors
 npm i --save-dev nodemon
 ```
 
+---
 
 ## 💾 Configuration des Scripts
 
@@ -71,6 +77,7 @@ npm i --save-dev nodemon
 }
 ```
 
+---
 
 ## ⌨️ Serveur Express
 
@@ -88,6 +95,7 @@ app.get('/api', (req, res) => {
 app.listen(3000, () => console.log('✅ Server started: http://localhost:3000'));
 ```
 
+---
 
 ## ⌨️ Configuration de Cors
 
