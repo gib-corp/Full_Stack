@@ -101,8 +101,6 @@ app.listen(3000, () => console.log('✅ Server started: http://localhost:3000'))
 
 > **Étape 7** : Configurer CORS pour restreindre l’accès à l’API uniquement à `localhost:5173` ( Server Vite par defaut ), dans le fichier `server/server.js`.
 
-> CORS permet aux applications Web clientes chargées dans un domaine particulier d'interagir avec les ressources d'un autre domaine. Cela est utile, car les applications complexes font souvent référence à des API et à des ressources tierces dans leur code côté client.
-
 ```js
 import cors from "cors"
 const corsOptions = {
@@ -111,3 +109,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions))
 ```
+
+> [!NOTE]
+> CORS permet aux applications Web clientes chargées dans un domaine particulier d'interagir avec les ressources d'un autre domaine. Cela est utile, car les applications complexes font souvent référence à des API et à des ressources tierces dans leur code côté client.
