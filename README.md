@@ -112,3 +112,10 @@ app.use(cors(corsOptions))
 
 > [!NOTE]
 > CORS permet aux applications Web clientes chargées dans un domaine particulier d'interagir avec les ressources d'un autre domaine. Cela est utile, car les applications complexes font souvent référence à des API et à des ressources tierces dans leur code côté client.
+
+
+### NextUp :
+
++ Router
++ React Query
++ Axios
