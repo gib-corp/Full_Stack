@@ -3,8 +3,8 @@
 > Cette première étape consiste à structurer le projet avec une partie **client** (React) et une partie **serveur** (Express). Les dépendances sont installées, le serveur est configuré, et la connexion entre les deux est établie avec **CORS**.
 
 ### 🛠️ Détails des dossiers
-- **client/** : Le dossier contenant la partie **client** générée par Vite. **React**
-- **server/** : Le dossier contenant la partie **serveur**. Il contient le fichier **server.js** qui gérera l'API. **Express**
+- **client/** : Partie **client** générée par Vite. **React**
+- **server/** : Partie **serveur**, contient le fichier **server.js** qui gérera l'API. **Express**
 
 ```bash
 Project/
