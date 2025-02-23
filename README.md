@@ -1,6 +1,6 @@
 # 🔥 Vite - React - Node.js - Express - MySQL
 
-> Cette première étape consiste à structurer le projet avec une partie **client** (React) et une partie **serveur** (Express). Les dépendances sont installées, le serveur est configuré, et la connexion entre les deux est établie avec **CORS**.
+> Cette première étape consiste à structurer le projet avec une partie **client** (React) et une partie **serveur** (Express). Les dépendances sont installées, le serveur est configuré, et la connexion entre les deux est établie.
 
 ### 🛠️ Détails des dossiers
 - **client/** : Partie **client** générée par Vite. **React**
